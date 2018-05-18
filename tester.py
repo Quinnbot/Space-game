@@ -1,8 +1,8 @@
 #tester
-from player import player
+from entity import entity
 
 
-from inventory import inventory
+# from inventory import inventory
 
 
 stat = [10, 10, 10, 1000]
@@ -11,7 +11,7 @@ stat = [10, 10, 10, 1000]
 itemModifacation = [2,1]
 playerModifacation = [1,1,1]
 
-pla = player("Quinny", stat)
+pla = entity("Quinny", stat)
 pla.addItem("water", itemModifacation, playerModifacation)
 pla.listItems()
 print("\n\n")
