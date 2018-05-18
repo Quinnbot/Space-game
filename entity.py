@@ -1,7 +1,7 @@
 from inventory import inventory
 from stats import stats
 
-class player(inventory):
+class entity(inventory):
     def __init__(self, name, stat):
         super().__init__()
         self.name = name
@@ -16,8 +16,6 @@ class player(inventory):
         1 = agility
         2 = charisma
         3 = health
-        if any one cares. why am i commeting stuff like this
-        im wrighting this entire thing by my self (0,0)
         """
         if(choice == 0):
             return self.stat.Strength(0,0)
